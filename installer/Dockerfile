@@ -16,3 +16,4 @@ COPY --from=builder /app/installer /installer
 EXPOSE 80
 
 ENTRYPOINT ["/installer"]
+
