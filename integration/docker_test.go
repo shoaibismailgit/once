@@ -1543,3 +1543,4 @@ func buildAndPushImage(t *testing.T, ctx context.Context, tag, version string) {
 
 	pushToRegistry(t, ctx, tag, img)
 }
+
