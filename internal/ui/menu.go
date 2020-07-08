@@ -160,3 +160,4 @@ func (m Menu) selectItem(key int) tea.Cmd {
 func menuItemTarget(i int) string {
 	return "menu-item:" + strconv.Itoa(i)
 }
+
