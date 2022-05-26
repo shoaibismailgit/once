@@ -315,3 +315,4 @@ func TestAutoUpdateAndBackupMarshalRoundTrip(t *testing.T) {
 	assert.True(t, restored.Backup.AutoBackup)
 	assert.True(t, original.Equal(restored))
 }
+
