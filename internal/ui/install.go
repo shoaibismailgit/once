@@ -529,4 +529,3 @@ func blockWidth(lines []string) int {
 	}
 	return width
 }
-

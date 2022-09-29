@@ -243,4 +243,3 @@ func peakValue(data []float64, window int) float64 {
 	start := max(0, len(data)-window)
 	return maxValue(data[start:])
 }
-

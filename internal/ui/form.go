@@ -551,4 +551,3 @@ func fieldTarget(i int) string {
 func isDigitKey(k tea.Key) bool {
 	return unicode.IsDigit(rune(k.Text[0]))
 }
-

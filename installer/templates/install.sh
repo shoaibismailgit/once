@@ -189,4 +189,3 @@ is_root() {
 }
 
 main
-

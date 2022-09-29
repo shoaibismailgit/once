@@ -252,4 +252,3 @@ func calculateCPUPercent(stats *container.StatsResponse) float64 {
 	}
 	return 0.0
 }
-

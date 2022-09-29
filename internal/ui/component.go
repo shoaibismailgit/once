@@ -20,4 +20,3 @@ type MouseEvent struct {
 	Target  string
 	IsClick bool
 }
-

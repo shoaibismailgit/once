@@ -68,4 +68,3 @@ func serve(handler http.HandlerFunc, imageRef string) *httptest.ResponseRecorder
 	handler(w, r)
 	return w
 }
-
